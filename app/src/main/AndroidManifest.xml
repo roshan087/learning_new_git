@@ -13,8 +13,10 @@
         android:theme="@style/Theme.Learning_new_git"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.user.UserActivity"
+            android:exported="true"
+            android:label="@string/title_activity_user"
+            android:theme="@style/Theme.Learning_new_git">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
